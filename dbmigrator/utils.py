@@ -258,6 +258,7 @@ def run_migration(cursor, version, migration_name, migration,
         # not a repeat migration
         pass
 
+    print('Running migration {} {}'.format(version, migration_name))
     logger.info('Running migration {} {}'.format(version, migration_name))
     migration.up(cursor)
     mark_migration(cursor, version, True)
