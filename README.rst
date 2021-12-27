@@ -1,4 +1,4 @@
-DB Migrator
+DB Migrator [stale - unused]
 ===========
 
 .. image:: https://travis-ci.org/karenc/db-migrator.svg?branch=master
